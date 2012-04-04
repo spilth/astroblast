@@ -3,4 +3,6 @@ reference
 pkg
 **/.DS_Store
 **/*.swp
+*.swp
+.DS_Store
 
