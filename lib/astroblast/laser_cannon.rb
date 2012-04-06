@@ -17,7 +17,6 @@ class LaserCannon < Chingu::GameObject
     @lives = INITIAL_LIVES
     @respawning = false
 
-    @lives_text = Chingu::Text.create(lives, :x => $window.width - 64, :y => $window.height - 64, :zorder => 55, :factor_x => 2.0, :factor_y => 2)
     @hyperspaces_text = Chingu::Text.create(hyperspaces, :x => 64, :y => $window.height - 64, :zorder => 55, :factor_x => 2.0, :factor_y => 2)
     @x = $window.width / 2
     @y = $window.height - 96

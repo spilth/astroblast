@@ -4,6 +4,7 @@ require 'gosu'
 include Gosu
 
 require_relative 'astroblast/pause'
+require_relative 'astroblast/death'
 require_relative 'astroblast/play'
 require_relative 'astroblast/intro'
 require_relative 'astroblast/game'
